@@ -1,0 +1,44 @@
+.branch{
+    color: #811A14;
+    .content-branches{
+        padding: 70px 0px;
+    }
+    .content-bra{
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        h2{
+            color: #F27028;
+            font-size: 41px;
+            @media (max-width:991px) {
+                font-size: 30px;
+
+            }
+            font-weight: bold;
+    
+        }
+        span{
+            color: #F27028;
+            font-size: 20px;
+        }
+    }
+    .header-details{
+        text-align: center;
+    }
+    .Adress{
+        font-size: 22px;
+        margin-left: 10px;
+    }
+}
+.img-branch{
+    .content-branches{
+        padding: 20px 0px;
+
+    }
+}
+
+.content-branches{
+    border: 2px solid #F27028;
+    border-radius: 25px;
+    position: relative;
+}

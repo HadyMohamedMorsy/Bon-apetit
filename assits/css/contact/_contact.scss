@@ -1,0 +1,50 @@
+.header-contact{
+    color: #F26F26;
+    font-size: 50px;
+    @media (max-width : 991px) {
+        font-size: 30px;
+
+    }
+    font-weight: bold;
+    a{
+        color: #F26F26;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.contact-form{
+    .content-header{
+        border: 2px solid #707070;
+        padding: 30px;
+        color: #F26F26;
+        font-size: 50px;
+        @media (max-width : 991px) {
+            font-size: 25px;
+
+        }
+
+    }
+    .Adress{
+        color: #811A14;
+        font-size: 24px;
+
+    }
+    .form-control{
+        border: 5px solid #FCDECC;
+    }
+    label{
+        color: #F26F26;
+        font-weight: bold;
+    }
+    .btn-primary{
+        background-color: #F26F26;
+        border-color: #F26F26;
+    }
+}
+
+.map-google{
+    iframe{
+        max-width: 100%;
+    }
+}

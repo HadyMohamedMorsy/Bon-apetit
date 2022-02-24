@@ -1,0 +1,122 @@
+.padding-items{
+
+    @media (min-width : 992px) {
+        padding-top: 200px;
+    }
+}
+.left-margin-single{
+    @media (min-width : 992px) {
+        margin-left: -115px;
+    }
+}
+.right-margin-Double{
+
+    @media (min-width : 992px) {
+        margin-left: 115px;
+    }
+
+}
+.menu-categroy{
+    margin-top: 80px;
+    span{
+        margin: 0px 20px;
+        text-transform: uppercase;
+        font-size: 18px;
+        cursor: pointer;
+        &.active{
+            color: #F27028;
+        }
+
+    }
+}
+.menu{
+    .border-menu-single{
+        width: 100%;
+        position: absolute;
+        display: none;
+        @media (min-width : 992px) {
+            left: -290px;
+            display: block;
+        }
+        img{
+            height: 500px;
+            max-width: 100%;
+        }
+
+    }
+    .images-product{
+        img{
+            width: 100%;
+            transform: scale(1.2);
+            @media (min-width : 992px) {
+                transform: scale(1.7);
+            }
+
+        }
+    }
+    .border-menu-double{
+        max-width: 100%;
+        position: absolute;
+        display: none;
+        @media (min-width : 992px) {
+            right: -290px;
+            display: block;
+        }
+        img{
+            height: 500px;
+            max-width: 100%;
+        }
+    }
+    .images-product{
+        img{
+            width: 100%;
+            transform: scale(1.2);
+            @media (min-width : 992px) {
+                transform: scale(1.7);
+            }
+        }
+    }
+
+    .header-items-product{
+        text-align: center;
+        font-size: 50px;
+        @media (max-width : 992px) {
+            font-size: 25px;
+        }
+        color: #F27028;
+        text-transform: uppercase;
+    }
+}
+
+.padding-detealis{
+    color: #811A14;
+    .deteails{
+        padding: 20px;
+        h6{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        p{
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    }
+}
+.overhidden{
+    overflow: hidden;
+}
+
+.order-effetct-first{
+    order: 2;
+    @media (min-width : 992px) {
+        order: 1;
+    }
+}
+
+.order-effetct-secound{
+    order: 1;
+    @media (min-width : 992px) {
+        order: 2;
+    }
+}

@@ -1,0 +1,81 @@
+.services{
+    .bac-services{
+        padding: 40px 0px;
+        background: url('.././images/services.png');
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        .header-services{
+            text-align: center;
+            font-size: 80px;
+            @media (max-width :991px) {
+                font-size: 40px;
+            }
+            color: #fff;
+            position: relative;
+            &::after{
+                content: "";
+                position: absolute;
+                width: 230px;
+                height: 4px;
+                background-color: #fff;
+                bottom: -3px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+        .overhere{
+
+            width: 100%;
+            height: 100%;
+            &:hover{
+                .over-black{
+                    .content-text{
+                        display: block;
+                    }
+                }
+
+            }
+            .over-black{
+                border-radius: 20px;
+                border : 1px solid #707070;
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                position: relative;
+                .img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;                    
+                }
+                .content-text{
+                    background-color: rgba(0,0,0,0.5);
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    display: none;
+                    .content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        color: #fff;
+                        font-weight: bold;
+                        font-size: 18px;
+                        span{
+                            color: #FEAA51;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+}
